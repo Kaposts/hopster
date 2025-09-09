@@ -16,6 +16,13 @@ config/features=PackedStringArray("4.4", "Mobile")
 boot_splash/image="uid://xlph3ttnfvnw"
 config/icon="uid://cwg42a73pmmsb"
 
+[autoload]
+
+Enums="*res://core/enums.gd"
+Global="*res://core/global.gd"
+SignalBus="*res://core/signal_bus.gd"
+Refs="*res://core/refs.gd"
+
 [display]
 
 window/size/viewport_width=360
@@ -28,6 +35,17 @@ window/handheld/orientation=1
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/xsm/plugin.cfg")
+
+[file_customization]
+
+folder_colors={
+"res://addons/": "red",
+"res://assets/": "purple",
+"res://core/": "blue",
+"res://levels/": "orange",
+"res://player/": "pink",
+"res://ui/": "gray"
+}
 
 [input]
 
